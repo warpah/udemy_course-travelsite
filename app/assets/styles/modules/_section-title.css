@@ -20,6 +20,12 @@
 			margin-right: .5rem;
 			margin-left: 0;
 			margin-bottom: 0;
+			position: relative;
+			top: 1rem;
 		}
+	}
+
+	&__blue {
+		color: $mainBlue;
 	}
 }
