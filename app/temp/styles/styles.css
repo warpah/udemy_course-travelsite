@@ -483,6 +483,7 @@ a {
 	padding-right: 18px;
 	max-width: 1236px;
 	margin: 0 auto;
+
 	
 }
 
@@ -519,6 +520,19 @@ a {
   }
 }
 
+.wrapper__no-padding-until-large {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 1010px) {
+
+  .wrapper__no-padding-until-large {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
 .page-section {
 	padding: 1.2rem;
 }
@@ -539,7 +553,7 @@ a {
   background-color: #e0e6ef;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .page-section__testimonials {
     background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
@@ -554,6 +568,17 @@ a {
 @media (min-width: 800px) {
 
   .page-section__no-b-padding-until-medium {
+    padding-bottom: 4.5rem;
+  }
+}
+
+.page-section__no-padding-until-medium {
+  padding-bottom: 0;
+}
+
+@media (min-width: 1010px) {
+
+  .page-section__no-padding-until-medium {
     padding-bottom: 4.5rem;
   }
 }
@@ -683,6 +708,36 @@ a {
   }
 }
 
+@media (min-width: 1010px) {
+
+  .row__b-margin-until-large {
+    margin-bottom: 0;
+  }
+
+  .row__large-4 {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row__large-4-larger {
+    width: 37%;
+  }
+
+  .row__large-6 {
+    float: left;
+    width: 50%;
+  }
+
+  .row__large-8 {
+    float: left;
+    width: 66.66%;
+  }
+
+  .row__large-8-smaller {
+    width: 63%;
+  }
+}
+
 /* begin equal height rules */
 
 @media (min-width: 800px) {
@@ -699,6 +754,35 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (min-width: 1010px) {
+
+  .row__equal-height-at-large {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.row__equal-height-at-large > div {
+  float: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row__no-padding-until-large {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 1010px) {
+
+  .row__no-padding-until-large {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 }
 
 .generic-content-container p {
@@ -889,7 +973,7 @@ a {
 	margin-bottom: 98px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .testimonial {
     padding: 0 1.8125rem 1px 1.812rem;
